@@ -1,0 +1,38 @@
+/* CSS Document */
+.fr{
+float:right;
+
+}
+.fr img{
+height:20px;
+}
+
+#LoginWindow
+{
+   width:250px;
+   height:130px;
+   border:#efefef 2px solid;
+   position: absolute;
+    z-index: 100000;
+    margin-left: auto;
+	top:10%;
+	left:20%;
+	background-color:#FFFFFF;
+	display:block;
+ 
+	}
+	.w{
+	padding-top:20px;
+	padding-left:20px;
+	}
+	.w img{
+	width:20px;
+	height:20px;
+	
+	}
+	.wo{
+	font-size:12px;
+		padding-left:30px;
+		text-decoration:none;
+	color:#FF6633;
+	}

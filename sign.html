@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>登录页面</title>
+<link rel="shortcut icon" href="images/nav/favicon.ico" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/sign.css" />
+</head>
+
+
+<body>
+<!--页面顶部-->
+<div class="top">
+	<div class="top1">
+		<div class="top-l fl">
+			<img src="images/nav/shangbiao.PNG" />
+		</div>
+		<div class="top-r fr">
+			<ul>
+				<li class="fl">欢迎光临艾米</li>
+				<li class="fl">请<a href="sign.html">登录</a>成为会员</li>
+				<li class="fl"><a href="my.html">我的</a>艾米</li>
+			</ul>
+		</div>
+	</div>
+	<div class="top2">
+	<p class="title">登录页面</p>
+	</div>
+</div>
+<!--页面内容-->
+
+<div class="bao">
+	<div  class="back fl">
+		 <form>
+			  <div class="loginWin-head">用&nbsp;户&nbsp;登&nbsp;录</div>
+				  <div class="loginWin-container-l">
+					  <div class="loginWin-inputbox">
+				            <label for="name" id="left">用&nbsp;户&nbsp;名:</label>
+								<input type="text" id="username"  placeholder="手机、邮箱或用户名" class="login_win_input" required="required">
+					  </div>
+                      <div class="loginWin-inputbox">
+						    <label for="email"id="left1">密&nbsp;&nbsp;&nbsp;码:</label>
+		<input type="password" placeholder="密码" id="password" class="login_win_input" required="required">
+                       </div>
+                               <input type="submit" class="login_win_loginBtn" value="登录"onclick="check()">                          
+                       <div class="qq fl"> 没有账号，<a href="register.html">注册</a>一个</div>
+		       </div>
+          </form> 
+     </div>
+	 <div  class="back1 fr">
+	      <form>
+			  <div class="loginWin-head">管&nbsp;理&nbsp;员&nbsp;登&nbsp;录</div>
+				  <div class="loginWin-container-l">
+					  <div class="loginWin-inputbox">
+				            <label for="name" id="left">用&nbsp;户&nbsp;名:</label>
+								<input type="text" id="username"  placeholder="管理员账号" class="login_win_input" required="required">
+					  </div>
+                      <div class="loginWin-inputbox">
+						    <label for="email"id="left1">密&nbsp;&nbsp;码:</label>
+		<input type="password" placeholder="管理员密码" id="password" class="login_win_input" required="required">
+                       </div>
+                             <input type="submit" class="login_win_loginBtn" value="登录"onclick="check()">                          
+                      
+		       </div> 
+               </form> 
+	   </div>
+            
+</div>
+<!--页面底部-->
+<script type="text/javascript" src="javascript/bottom.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>图书管理页面</title>
+<link rel="stylesheet" href="css/global.css" />
+<link rel="shortcut icon" href="images/nav/favicon.ico" />
+<link rel="stylesheet" href="css/adglobal.css" />
+</head>
+
+<body>
+<!--页面顶部-->
+<div class="top1">
+		<div class="top-l fl">
+			<img src="images/nav/shangbiao.PNG" />
+		</div>
+		<div class="top-r fr">
+			<ul>
+				<li class="fl">欢迎光临艾米</li>
+				<li class="fl">请<a href="css/sign.html">登录</a>成为会员</li>
+				<li class="fl"><a href="my.html">我的</a>艾米</li>
+			</ul>
+		</div>
+</div>
+<!--页面内容-->
+<div class="adm">
+    <h1 class="title">图书管理</h1>
+	<div class="adm-l fl">
+		<ul>
+		<li>新书上架</li>
+	
+		
+		</ul>
+  
+  </div>
+  
+  <div class="adm-r">
+	  <form>
+	  <div class="hang">
+	   <label for="name"><span class="star">*</span>书&nbsp;&nbsp;&nbsp;&nbsp;名:</label>
+		 <input type="text" id="name" name="name" placeholder="书名" required="required" />
+		  <label for="name"><span class="star">*</span>价&nbsp;&nbsp;&nbsp;&nbsp;格:</label>
+		 <input type="text" id="name" name="name" placeholder="艾米价" required="required" />
+		 
+		  <label for="name"><span class="star">*</span>原&nbsp;&nbsp;&nbsp;&nbsp;价:</label>
+		 <input type="text" placeholder="原价" required="required" /> 
+		 </div>
+		 <div class="hang">
+		 <label for="name"><span class="star">*</span>作&nbsp;&nbsp;&nbsp;&nbsp;者:</label>
+		 <input type="text"  placeholder="书籍作者" required="required" />
+		 <label for="name"><span class="star">*</span>出&nbsp;版&nbsp;社:</label>
+		 <input type="text"  placeholder="书籍出版社" required="required" />
+		 <label for="name"><span class="star">*</span>出版时间:</label>
+		 <input type="text"  placeholder="书籍出版时间" required="required" />
+		 </div>
+		 <div class="hang">
+		 <label for="name" class="fl"><span class="star">*</span>图书概况:</label>
+		  <textarea cols="75" rows="26" id="long" required="required" placeholder="在这里填写图书基本情况介绍......."></textarea>
+		 
+		 </div>
+		 <div class="hang">
+		 <label for="name" class="fl"><span class="star">*</span>内容简介:</label>
+		 <textarea cols="75" rows="26" id="long" required="required" placeholder="在这里填写书籍内容介绍......."></textarea>
+		 </div>
+		 <div class="me-su"><input id="button" type="submit" value="提交信息" onclick="change()"/></div>
+		
+	  </form> 
+  </div>
+</div>
+<!--页面底部-->
+<script type="text/javascript"src="javascript/change.js" ></script>
+<script type="text/javascript" src="javascript/bottom.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+/* CSS Document */
+
+.fl{
+float:left;
+}
+.fr{
+float:right;
+}
+.admin1{
+width:80%;
+height:600px;
+margin:0 auto;
+
+}
+.ad-l{
+width:100%;
+height:50px;
+margin:0 auto;
+}
+
+.ad-l ul{
+width:95%;
+margin:0 auto;
+}
+
+.online{
+height:40px;
+border-left:#CCCCCC 2px solid;
+
+}
+.ad-l ul li{
+line-height:40px;
+width:31%;
+text-align:center;
+padding-right:2%;
+border-top:#CCCCCC 2px solid;
+border-right:#CCCCCC 2px solid;
+background-color:#FFFF99;
+}
+.ad-l ul li:hover{
+background-color:#FFCCFF;
+color:#000000;
+}
+
+.ad-r{
+width:100%;
+height:400px;
+margin:0 auto;
+}
+.adtu{
+width:95%;
+margin:0 auto;
+}
+.adtu img{
+width:100%;
+height:450px;
+}

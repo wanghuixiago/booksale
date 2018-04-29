@@ -1,0 +1,73 @@
+/* CSS Document */
+
+.my{
+width:70%;
+height:650px;
+margin:0 auto;
+}
+.zhutu{
+width:100%;
+}
+.zhutu img{
+width:100%;
+height:80px;
+
+}
+.art{
+width:100%;
+height:550px;
+margin:0 auto;
+background-color:#efefef;
+}
+.art-l{
+width:25%;
+height:550px;
+background-color:#CCFFFF;
+}
+.art-r{
+width:75%;
+height:500px;
+background-color:#FFFFFF;
+padding-top:50px;
+}
+.my-menu dl {
+    border: 1px solid #dcdcdc;
+    border-top: none 0;
+	width:75%;
+    margin: 0 auto;
+    padding: 16px 0 0 42px;
+	}
+.my-menu-title{
+ color: #323232;
+ width:98%;
+ height:59px;
+ border: 2px solid #dcdcdc;
+ 
+ text-align:center;
+ padding-top:25px;
+ }
+   .my-menu dt{
+     margin: 8px 0;
+    line-height: 18px;
+    font-size: 16px;
+    padding-left:30px;
+	margin-bottom:0px;
+	}
+	.menuItem{    
+		line-height: 32px;
+        font-size: 14px;
+	color:#969696;
+	}
+ .my-menu-title:hover{
+ color:#FF0000;
+ }
+ .menuItem:hover{
+ text-decoration: none;
+    color: #323232;
+	}
+	.red{
+	color:#FF3366;
+	font-weight:900;
+	  padding-right:5px
+	}
+	

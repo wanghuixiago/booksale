@@ -1,0 +1,31 @@
+/* CSS Document */
+
+.books{
+width:90%;
+height:auto;
+margin:0 auto;
+}
+table{
+width:100%;
+}
+th{
+text-align:center;
+}
+th,td
+     {
+        
+         border :1px solid black;
+     }
+	 .xin{
+	 text-align:center;
+	 }
+	 .xino{
+	 padding:4px;
+	 background-color:#FF6633;
+	 list-style:none;
+	 margin:0px;
+	 border:none;
+	 }
+	 .xino:hover{
+	 background-color:#FFCCFF;
+	 }

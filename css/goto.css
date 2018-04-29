@@ -1,0 +1,58 @@
+/* CSS Document */
+
+.book-go{
+width:60%;
+height:150px;
+margin:0 auto;
+    border: 4px solid #f5f5f5;
+
+}
+.line{
+border-right: 4px solid #f5f5f5;
+width:60%;
+height:150px;
+}
+.goto{
+line-height:25px;
+margin-top:50px;
+margin-left:50px;
+font-size:18px;
+
+}
+.goto img{
+height:25px;
+}
+.gotol{
+margin-top:50px;
+
+}
+.btn{
+ height: 25px;
+   line-height: 25px;
+    background: #fe8d00;
+    border-radius: 3px;
+    color:#FFFFFF;
+    text-align: center;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+	padding:3px 15px;
+   }
+   .btn1{
+  height: 25px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    background: #f0f0f0;
+    border-radius: 3px;
+    color: #969696;
+    vertical-align: middle;
+   font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+    padding: 0 15px; 
+   }
+  .gotol a{
+  margin-left:50px;
+  height:28px;
+ 
+  }

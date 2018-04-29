@@ -1,0 +1,27 @@
+/* CSS Document */
+    
+	.c_gray{
+margin:0;
+padding:0;
+	color: #9b9b9b;
+    font-size: 12px;
+}
+.star{
+color:#FF0000;
+}
+.ni{
+padding-left:40%;
+padding-right:0px;
+}
+.message{
+padding-top:30px;
+text-align:center;
+border: 1px solid #dcdcdc;
+height:350px;
+}
+#button{
+padding:6px;
+background-color:#FF3333;
+border:none;
+color:#FFFFFF;
+}

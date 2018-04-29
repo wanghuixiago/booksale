@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>订单结算</title>
+<link rel="shortcut icon" href="images/nav/favicon.ico" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/account.css" />
+
+</head>
+
+<body>
+<!--页面顶部-->
+<div class="top1">
+		<div class="top-l fl">
+			<img src="images/nav/shangbiao.PNG" />
+		</div>
+		<div class="top-r fr">
+			<ul>
+				<li class="fl">欢迎光临艾米</li>
+				<li class="fl">请<a href="css/sign.html">登录</a>成为会员</li>
+				<li class="fl">我的艾米</li>
+			</ul>
+		</div>
+</div>
+  <!--页面内容-->
+<div class="account">
+	<form method="post" class="account1">
+		<h1 class="tit">订单结算</h1>
+		<!--地址库-->
+		<div class="tit1">收货人信息</div>
+			<div class="loginWin-input-wrapper"> 
+				<div class="left1">
+					<label for="name" class="username">收货人:</label>
+					<input type="text"   placeholder="收货人信息" class="login_win_input" required="required"> 
+					<label for="phone">手机:</label>
+					<input type="text" id="phone"  placeholder="手机号" class="login_win_input" required="required"> 
+				</div>
+				<div class="left1 left">
+					<label for="address">收货地址:</label>
+					<input type="text" id="address"  placeholder="地址" class="login_win_input1" required="required"> 
+				</div>
+		    </div>
+		
+		<!--配送方式-->
+		<hr />
+		<div class="send-way">
+			<div class="tit1">配送时间</div>
+			<div class="left1 fl" style="line-height: 1.5">
+				<span class="left1">18:00前支付预计24小时内发货，18:00后支付预计48小时内发货</span>
+			</div>
+		</div>
+		<!-- 商品列表 -->
+		
+		<div class="list1">
+			  <table>
+		   <tr>		  
+		  <td class="no">商品名称</td>
+		  <td class="no">单价</td>
+		  <td class="no" >数量</td>
+		  <td class="no">总价</td>		
+		  </tr>
+		  <tr>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  </tr>
+		   <tr>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  </tr>
+		   <tr>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  <td class="no"></td>
+		  </tr>
+		  </table>
+		</div>		
+		<div class="list2">		
+			<p class="fl fli">商品总金额：<span class="ui_price">￥</span></p>
+			<p class="fl fli">优惠金额：<span class="ui_price">-￥0</span></p>
+			<p class="fl fli">运费：<span class="ui_price">+￥0</span></p>
+			<p class="fl fli">支付方式：<span class="pay-way">在线支付</span></p>
+		</div>
+			
+		<div class="fr fri">
+			<p class="ui_price">应付总额：<em>￥</em></p>
+			<input type="submit" value="提交订单" id="subOrder" class="submit-order-btn" onclick="change()"/>
+		</div>
+	</div>
+	</form>
+</div>		  
+<!--页面底部-->
+<script type="text/javascript">
+function change(){
+	document.getElementById("subOrder").value="订单已提交";
+	document.getElementById("subOrder").style.color="#000";
+	document.getElementById("subOrder").style.backgroundColor="grey";
+	
+}
+</script>
+<script type="text/javascript" src="javascript/bottom.js"></script>
+</body>
+</html>

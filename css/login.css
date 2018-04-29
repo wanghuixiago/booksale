@@ -1,0 +1,41 @@
+/* CSS Document */
+.login{
+padding-top:20px;
+width:80%;
+margin:0 auto;
+background-color:#efefef;
+padding-bottom:20px;
+}
+.loginWin{
+text-align:center;
+font-size:24px;
+}
+	.login_win_input{
+	    font-size: 14px;
+    border-radius: 4px;
+    height: 40px;
+    text-indent: 20px;
+    border: none;
+	width:235px;
+	
+}
+
+.block{
+display:block;
+margin-bottom:20px;
+text-align:center;
+}
+.login_win_loginBtn {
+    display: block;
+    position: relative;
+    width:5%;
+    height:40px;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #d70226;
+    background: #eb0028;
+    border-radius: 4px;
+	}

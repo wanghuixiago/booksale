@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>图书购买页面</title>
+<link rel="shortcut icon" href="images/nav/favicon.ico" />
+
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/money.css" />
+
+</head>
+<body>
+<!--页面顶部-->
+<div class="top1">
+		<div class="top-l fl">
+			<img src="images/nav/shangbiao.PNG" />
+		</div>
+		<div class="top-r fr">
+			<ul>
+				<li class="fl">欢迎光临艾米</li>
+				<li class="fl">请<a href="css/sign.html">登录</a>成为会员</li>
+				<li class="fl">我的艾米</li>
+			</ul>
+		</div>
+</div>
+
+  <!--页面内容-->
+ 
+<div class="sl_area">
+
+<h1 class="tit">购物车</h1>
+
+
+<div id="contentList">
+<table border="0" cellpadding="0" cellspacing="0" class="mycart_table">
+<tr>
+<th>商品</th>
+<th>单价</th>
+<th>购买数量</th>
+<th>小计</th>
+<th>操作</th>
+</tr>
+<tr>
+<td class="ui">
+男孩的田野
+</td>
+<td><span class="ui_price"><em>&yen;</em><span>39.00</span></span>
+</td>
+<td>
+<div class="ui_quantity" rec_id="731671">
+ <p><span onclick="numDec()">-</span> <input type="text" id="quantity1" value="1" name="quantity"  style="border: none;width: 20px;background-color: transparent;"/> <span onclick="numAdd()">+</span></p> 
+</div>
+</td>
+<td><span class="ui_price fn_hl"><em>&yen;</em><span subtotal="true" price="39.00">39.00</span></span>
+</td>
+<td><a href="#" target="_self" hidefocus="true" class="del" rec_id="731671">删除</a></td>
+</tr>
+</table>
+
+<div class="op">
+<p  class="confirm">确认订单信息</p>
+<p class="price">总价:<span class="ui_price"><em>&yen;</em><span id="JtotalPrice1">39</span></span>
+</p>
+	<input type="submit" value="去结算" class="toCart" id="goBtn" /><a href="account.html">提交</a>
+</div>
+</div>
+</div>
+
+<!--页面底部-->
+<script type="text/javascript" src="javascript/bottom.js"></script>
+</body>
+</html>
